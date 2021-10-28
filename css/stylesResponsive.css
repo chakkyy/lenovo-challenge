@@ -1,0 +1,175 @@
+.icon_hamburguer,
+.hamburguer_modal {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav_sections {
+    display: none;
+  }
+
+  .icon_hamburguer {
+    margin: 0.5em 0em 0em 1em;
+    display: flex;
+    background: url("../images/icons/hamburguer.svg");
+    background-size: cover;
+    max-width: 2em;
+    height: 2em;
+  }
+
+  .hamburguer_modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .hamburguer_modal ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hamburguer_modal ul li {
+    margin: 1rem;
+  }
+  .hamburguer_modal ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .categories_nav {
+    overflow-x: scroll;
+  }
+
+  .producttab_nav {
+    overflow-x: scroll;
+    font-size: 16px;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: min-content;
+    margin: 0 auto;
+  }
+
+  .catalog {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    width: 100vw;
+  }
+
+  .catalog .product_item {
+    width: 40%;
+    height: min-content;
+    margin-top: 2em;
+  }
+
+  .section_container {
+    flex-direction: column;
+  }
+
+  .filters_section {
+    flex-direction: row;
+    width: 100%;
+    height: min-content;
+    align-items: center;
+  }
+  .filter {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .products_results {
+    align-items: center;
+    margin: 1em auto;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .doorbuster {
+    height: 2rem;
+  }
+
+  .product_image {
+    object-fit: cover;
+    height: 20em;
+    width: 100%;
+  }
+
+  .product_image img {
+    margin-top: 2em;
+    min-height: 100%;
+    min-width: 100%;
+  }
+  .product_top {
+    height: 50%;
+  }
+
+  .product_bot {
+    margin-top: 2em;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .catalog .product_item {
+    width: 70%;
+  }
+
+  .filter {
+    border-right: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+  }
+  .filter label {
+    font-size: 14px;
+  }
+
+  .seeMore {
+    display: none;
+  }
+  .products_results {
+    display: flex;
+    flex-direction: column;
+    height: 5em;
+  }
+  .results {
+    margin-bottom: 1em;
+  }
+  .products_results select {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .filters_section {
+    flex-direction: column;
+    height: min-content;
+  }
+
+  .filter {
+    border-right: none;
+  }
+
+  .doorbuster {
+    font-size: 12px;
+  }
+
+  .product_name {
+    font-size: 14px;
+  }
+
+  .product_price {
+    font-size: 14px;
+  }
+}

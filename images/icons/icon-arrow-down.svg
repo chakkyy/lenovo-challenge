@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="9px" viewBox="0 0 18 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/arrow/down</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Facets-new" transform="translate(-215.000000, -956.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Facets" transform="translate(0.437277, 0.000000)">
+                <g id="Filter-7" transform="translate(1.554355, 948.000000)">
+                    <g id="icon/arrow/down" transform="translate(222.500000, 12.500000) rotate(270.000000) translate(-222.500000, -12.500000) translate(218.000000, 4.000000)">
+                        <path d="M8.7768961,7.84255758 L1.40156911,0.240663771 C1.09113723,-0.0802212569 0.5946518,-0.0802212569 0.284219918,0.240663771 C-0.0262119635,0.561548798 -0.0262119635,1.07475234 0.284219918,1.38448077 L7.16306148,8.47317104 L0.232823911,15.6155192 C-0.0776079704,15.9364043 -0.0776079704,16.4496078 0.232823911,16.7593362 C0.543255793,17.0802213 1.03974122,17.0802213 1.33937994,16.7593362 L8.69363456,9.17869308 C8.79694054,9.0719085 8.86940891,8.93271665 8.90076047,8.7935248 C9.06625561,8.49389043 9.02462485,8.09862808 8.7768961,7.84202631 L8.7768961,7.84255758 Z" id="Shape" transform="translate(4.500000, 8.500000) rotate(180.000000) translate(-4.500000, -8.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

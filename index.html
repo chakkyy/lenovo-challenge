@@ -1,0 +1,264 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./css/styles.css" rel="stylesheet" />
+  <link href="./css/stylesResponsive.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <title>Lenovo Challenge</title>
+</head>
+<body>
+  <header>
+    <nav class="main_nav">   
+        <div class='row1'>
+          <div class='row1_left'>
+          <button class="lenovo_logo"></button>
+          <button class="icon icon_hamburguer" id="iconHamburguer"></button>
+        <div class="hamburguer_modal" id="hamburguerModal">          
+          <ul>
+            <li><a class='nav_link' href="#">PCS & Tablets</a></li>
+            <li><a class='nav_link' href="#">Phones & Smart Devices</a></li>
+            <li><a class='nav_link' href="#">Data Center</a></li>
+            <li><a class='nav_link' href="#">Services & Solutions</a></li>
+            <li><a class='nav_link' href="#">Support</a></li>
+          </ul>
+        </div>
+          <ul class='nav_sections'>
+            <li><a href="#">PCS & Tablets</a></li>
+            <li><a href="#">Phones & Smart Devices</a></li>
+            <li><a href="#">Data Center</a></li>
+            <li><a href="#">Services & Solutions</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <form>
+          <input type='text' placeholder='What are you looking for today?'>
+          <button>
+            <img src="./images/nav/search.svg" aria-label="search" alt="searchbar" />
+          </button>
+          </input>
+        </form>
+      </div>
+      <div class='row2'>
+        <ul>
+          <li><button class="icon compare_icon" aria-label='compare icon' id="compare_icon"></button></li>
+          <li><button class="icon wishlist_icon" aria-label='wishlist icon' id="wishlist_icon"></button></li>
+          <li><button class="icon location_icon" aria-label='location icon' id="location_icon"></button></li>
+          <li><button class="icon contact_icon" aria-label='contact icon' id="contact_icon"></button></li>
+          <li><button class="icon reward_icon" aria-label='reward icon' id="reward_icon"></button></li>
+          <li><button class="icon user_icon" aria-label='user icon' id="user_icon"></button></li>
+          <li><button class="icon cart_icon" aria-label='cart icon' id="cart_icon"></button></li>
+        </ul>
+      </div>
+      <div class='row3'>
+        <nav class='categories_nav' aria-label='categories nav' id="allCategories">          
+        </div>
+      </div>
+    </nav>
+    <div class='sale_section' aria-label='sales banner'>
+      <h3>Save up to 21% on <strong>select thinkpad laptops</strong> through november 11th <a href='#'>Shop
+          Now ></a></h3>
+    </div>
+    <div class='producttab_section'>
+      <nav class='producttab_nav'>
+      <ul>
+        <li><a href='#' id='modelActive'>Models</a></li>
+        <li><a href='#'>Tech Specs</a></li>
+        <li><a href='#'>Features</a></li>
+        <li><a href='#'>Reviews</a></li>
+        <li><a href='#'>Compatible Accesories</a></li>
+        <li><a href='#'>Services & Support</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <div class="main_content">
+    <div class='modelssection_title'>
+      <h1>Models</h1>
+    </div>
+    <div class='section_container'>
+      <div class='filters_section'>
+        <div class='filter'>
+        <div class='collapse'>
+          <b aria-label="Price Drop down expanded">Price</b>
+          <span class='arrowup_icon'></span>
+        </div>
+        <div class='filterinfo'> 
+          <div class='option'>        
+            <label class="container">$800-$999.99 (2)
+              <input aria-label='minor price checkbox' type="checkbox" >
+              <span class="checkmark"></span>
+            </label>
+          </div> 
+            <div class='option'>
+              <label class="container">$1,000-$1,499.99 (4)
+                <input aria-label='mid price checkbox' type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class='option'>              
+              <label class="container">$1,500-$1,999.99 (3)
+                <input aria-label='max price checkbox' type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+            </div>            
+            <div class='filter_seeMore'>
+              <a href='#' aria-label='see more' class='seeMore'>See More</a>
+            </div>
+          </div>
+      </div>
+      <div class='filter'>
+        <div class='collapse'>
+          <b aria-label="Brand Drop down expanded">Brand</b>
+          <span class='arrowup_icon'></span>
+        </div>
+        <div class='filterinfo'> 
+          <div class='option'>        
+            <label class="container">ThinkPad
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+          </div> 
+            <div class='option'>
+              <label class="container">Legion
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class='option'>              
+              <label class="container">Yoga
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+            </div>            
+            <div class='filter_seeMore'>
+              <a href='#' aria-label='see more' class='seeMore'>See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='products'>
+        <div class='products_results'>
+          <h5 class='results'>4 Matching Results</h5>          
+          <select>
+            <option selected value="lowtohigh">Price Low to High</option>
+            <option value="hightolow">Price High to Low</option>
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+          </select>         
+        </div>
+        <ul class='catalog'>
+          <li class='product_item'>    
+            <div class='product_top'>       
+              <div class='doorbuster'>
+                <p>DOORBUSTER</p>
+              </div>
+              <div class='product_image'>
+                <img src="./images/products/product_1.png" aria-label="lenovo-laptop-1.png" alt="lenovo-laptop-1.png"/>
+              </div>
+              </div>
+              <div class='product_bot'>
+              <div class='product_name'>
+                <a>ThinkPad X1 Carbon Gen 8</a>
+              </div>
+              <div class='pay_info'>
+              <div class='product_price'>
+                <p>$1,299.99</p>
+              </div>
+              <div class='coupon_discount'>
+                <p>Use eCoupon: <strong>YOGAPRESALE8</strong></p>
+              </div>
+              <div class='addtocart'>
+                <button>Add To Cart</button>
+              </div>
+              </div>
+            </div>
+             </li>
+          <li class='product_item'>
+         <div class='product_top'>
+            <div class='doorbuster'>
+            </div>
+              <div class='product_image'>
+                <img src="./images/products/product_2.png"  aria-label="lenovo-laptop-1.png" alt="lenovo-laptop-1.png"/>
+              </div>
+            </div>
+            <div class='product_bot'>
+              <div class='product_name'>
+                <a>ThinkPad X1 Carbon Gen 8</a>
+              </div>
+              <div class='pay_info'>
+              <div class='product_price'>
+                <p>$1,299.99</p>
+              </div>
+              <div class='coupon_discount'>
+                <p>Use eCoupon: <strong>YOGAPRESALE8</strong></p>
+              </div>
+              <div class='addtocart'>
+                <button>Add To Cart</button>
+              </div>
+              </div>
+              </div>
+          </li>
+          <li class='product_item'>
+            <div class='product_top'>
+            <div class='doorbuster'>
+            </div>
+            <div class='product_image'>
+              <img src="./images/products/product_1.png" aria-label="lenovo-laptop-1.png" alt="lenovo-laptop-1.png"/>
+            </div>
+            </div>
+            <div class='product_bot'>
+            <div class='product_name'>
+              <a>ThinkPad X1 Carbon Gen 8</a>
+            </div>
+            <div class='pay_info'>
+            <div class='product_price'>
+              <p>$1,299.99</p>
+            </div>
+            <div class='coupon_discount'>
+              <p>Use eCoupon: <strong>YOGAPRESALE8</strong></p>
+            </div>
+            <div class='addtocart'>
+              <button>Add To Cart</button>
+            </div>
+            </div>
+           </div>
+          </li>
+          <li class='product_item'>
+            <div class='product_top'>
+              <div class='doorbuster'>
+                <p>DOORBUSTER</p>
+              </div>
+              <div class='product_image'>
+                <img src="./images/products/product_2.png" aria-label="lenovo-laptop-1.png" alt="lenovo-laptop-1.png"/>
+              </div>
+            </div>
+            <div class='product_bot'>
+              <div class='product_name'>
+                <a>ThinkPad X1 Carbon Gen 8</a>
+              </div>
+              <div class='pay_info'>
+              <div class='product_price'>
+                <p>$1,299.99</p>
+              </div>
+              <div class='coupon_discount'>
+                <p>Use eCoupon: <strong>YOGAPRESALE8</strong></p>
+              </div>
+              <div class='addtocart'>
+                <button>Add To Cart</button>
+              </div>
+              </div>
+              </div>
+          </li>
+        </ul>
+      </div>       
+      </div>
+    </div>    
+  </div>
+</body>
+<script src="./js/events.js"></script>
+<script src="./js/categories.js"></script>
+</html>
